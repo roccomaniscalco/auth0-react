@@ -1,6 +1,7 @@
 export {
   default as Auth0Provider,
   Auth0ProviderOptions,
+  Auth0ProviderOptionsWithClient,
   AppState,
   ConnectedAccount
 } from './auth0-provider';
@@ -49,6 +50,8 @@ export {
   CustomTokenExchangeOptions,
   TokenEndpointResponse,
   ClientConfiguration,
+  Auth0Client,
+  type Auth0ClientOptions,
   // MFA Types
   type MfaApiClient,
   type Authenticator,
